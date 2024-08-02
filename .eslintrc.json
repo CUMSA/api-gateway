@@ -1,0 +1,9 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["@typescript-eslint", "simple-import-sort", "prettier"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  },
+  "parser": "@typescript-eslint/parser"
+}
